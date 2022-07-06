@@ -6,9 +6,10 @@ body{
     background-image: url(image/donation8.jpg);
     background-repeat: no-repeat;
     text-align: center;
-    margin-bottom: 20px;
-    margin:none;
-    background-size: 100%;
+   background-size: 100%;
+    height: 500px;
+    background-position: center;
+    position: relative;
 }
 .color{
     color: white;
@@ -20,16 +21,20 @@ padding: 10px 40px;
 border-radius: 5px;
 color: white;
 font-weight: 400;
+margin-top: 50px;
+border: 0px solid ;
+height: 50px;
 }
 .h1{
     font-size: 50px;
+
 }
 .gray{
     color: gray;
     text-align: center;
 }
 .black{
-    font-size: 50px;
+    font-size: 25px;
     color: black;
     text-align: center;
 
@@ -40,27 +45,70 @@ font-weight: 400;
     background-color: lightgray;
     font-size: 15px;
     color: gray;
+    border: 0px solid gray;
+    text-align: center;
 }
 #taka-color{
 bottom: 5px;
 border-color: red;
 color: red;
+
 }
 .second-part{
 text-align: center;
 
 }
-hr .half{
+hr.half{
     border:1px solid gray ;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 hr.h1half{
-border-top: 1px dotted rebeccapurple;
+border-top: 2px dotted rebeccapurple;
+margin-top: 20px;
+margin-left: 40px;
+margin-right: 40px;
 }
 footer{
-    background-color: black;
-    text-align: center;
-    font-size: 20px;
-    color: rgb(102, 46, 46);
+    background-color: rgb(5, 1, 1);
     height: 100px;
     width: 100%;
+    margin-top: 50px;
+}
+footer p{
+    text-align: center;
+    font-size: 20px;
+    color: #9760ca;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-shadow: 2px 2px rgb(247, 245, 245);
+}
+.flexible-container{
+    display: flex;
+  }
+.box p{
+    font-size: 10px;
+    text-align: center;
+    margin-left: 2% ;
+    margin-right:2% ;
+
+}
+.box{
+    width: 100%;
+    height: 250px;
+    
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px rgb(223, 97, 97);
+}
+#food{
+    background-color: #eeeaea;
+}
+#shelter{
+    background-color:rgb(248, 200, 207);
+}
+#eduction{
+    background-color: rgb(247, 247, 196);
 }
